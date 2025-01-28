@@ -1,2 +1,2 @@
 # micro_project
- ![image](micro_project/create.png)
+ ![image](screenshot/create.png)
