@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #503bfb;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.hero-text {
+    background-color: #e3d6ff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.social-icons a {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    flex: 1;
+    background-color: #dedede;
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.stat-box:nth-child(1) {
+    background-color: #c9f0ff;
+}
+
+.stat-box:nth-child(2) {
+    background-color: #e7c5ff;
+}
+
+.stat-box:nth-child(3) {
+    background-color: #e5d5ff;
+}
+
+.stat-box:nth-child(4) {
+    background-color: #000000;
+    color: white;
+}
+
+.user-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab-btn.active {
+    background-color: #c9f0ff;
+}
+
+.info-content h2 {
+    margin-top: 0;
+}
+
+.next-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
